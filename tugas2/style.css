@@ -1,0 +1,92 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+main{
+    background-color: #fff;
+    margin: 30px 70px 0 70px;
+    height: auto;
+    width: auto;
+    box-shadow: 0 35px 20px 20px rgba(0, 0, 0, 0.2), 0 6px 25px 0 rgba(0, 0, 0, 0.19);
+}
+h1,h3{
+    padding: 35px 10px;
+}
+.satu{
+    display: flex;
+    margin: 30px 30px;
+}
+.dua {
+    margin: 20px 70px 0px 70px;
+    padding-bottom: 20px;
+}
+.dua p {
+    font-size: 20px;
+    text-align: justify;
+    margin: 10px;
+}
+section .logo{
+    width: 100px;
+    height: 100px;
+    margin-top: 20px;
+}
+.satu{
+    background-color: #fff;
+}
+.satu .itera{
+    margin-top: 80px;
+    margin-left: -210px;
+}
+nav{
+    display: flex;
+    background-color: #00668f;
+    padding-left: 35px;
+}
+nav tr {
+    display: flex;
+    list-style: none;
+    margin-top: 10px; 
+    font-size: 20px;
+    margin-bottom: 10px;
+
+}
+nav tr td {
+    margin: 0 30px; 
+}
+nav tr td a{
+    text-decoration: none;
+    color:#fff;
+    font-size: 13pt;
+}
+body{
+    font-family: Arial, sans-serif;
+    background-image: url('image/wave2.jpg');
+    background-repeat: repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+article h1{
+    text-align: center;
+    font-size: 35px;
+}
+article p{
+    text-align: justify;
+
+    font-size: 20px;
+}
+article .gerbang-depan{
+    display: block;
+    margin: auto;
+    margin-bottom: 40px;
+    width: 700px;
+    height: 400px;
+}
+footer {
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    margin: 0 70px 30px 70px;
+    background-color: #444;
+}
